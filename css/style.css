@@ -1,19 +1,124 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+html {
+    font-size: 14px;
+}
 body {
-    background-color: goldenrod;
+    background-color: #6495ed;
+    color: lavenderblush;
     font-family: "Figtree", sans-serif;
     font-optical-sizing: auto;
-    }
-.text-bold {
-   font-weight: bold;
+    width: 1024px;
+    margin: 0 auto;
+}
+h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+h1 {
+    color: bisque;
+    font-style: italic;
+    text-align: center;
+    font-size: 2.2rem;
+    line-height: 1;
+    text-shadow: 2px 2px darkblue;
+    letter-spacing: 0.2em;
+    font-weight: 100;
+}
+h2 {
+    font-size: 1.8rem;
+    line-height: 1;
+}
+h3 {
+    font-size: 1.6rem;
+    line-height: 1.3;
+}
+h4 {
+    font-size: 1.2rem;
+    line-height: 1.3;
+}
+h5 {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+h6 {
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+strong {
+    background-color: crimson;
+    color: cornsilk;
+    text-decoration: underline;
+    padding: 1px 5px;
+}
+p {
+    text-align: justify;
+    line-height: 1.5em;
+    text-indent: 10px;
+}
+nav ul{
+    padding: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    float: left;
+}
+nav li {
+    float: left;
+    width: auto;
+    list-style: outside none none;
+}
+nav li:last-child {
+    margin-left: 0;
+}
+nav li a {
+    text-decoration: none;
+    font-size: larger;
+    padding: 5px 10px;
+    font-variant: small-caps;
+    border-radius: 0 10px;
+    margin-right: 2px;
+}
+nav li a:link {
+    background-color: dodgerblue;
+    color: floralwhite;
+}
+nav li a:visited {
+    background-color: dodgerblue;
+    color: lavenderblush;
+}
+nav li a:hover {
+    background-color: lavenderblush;
+    color: dodgerblue;
+}
+nav li a:active {
+    background-color: dodgerblue;
+    color: floralwhite;
+}
+.fullwidth {
+    width: 100%;
+    float: left;
+}
+.rainbow-text {
+    font-weight: 900;
+    font-size: 40px;
+    text-shadow:    1px 1px 2px red,
+                    2px 2px 2cap orange,
+                    3px 3px 2px yellow,
+                    4px 4px 2px green,
+                    5px 5px 2px blue,
+                    6px 6px 2px purple,
+                    7px 7px 2px palevioletred;
+}
+.rainbow-text2 {
+    font-weight: 900;
+    font-size: 40px;
+    text-shadow:    -1px 1px 2px darkcyan,
+                    -2px 2px 2px cadetblue,
+                    -3px 3px 2px aquamarine,
+                    -4px 4px 2px aqua;
 }
 .text-normal {
     font-weight: normal;
-  }
-h1, h2, h3, h4, h5, h6 {
-    color: bisque;
-    font-weight: 400;
-    font-style: italic;
 }
+
 .main-heading {color: burlywood;}
 #css-sandbox{color: azure;}

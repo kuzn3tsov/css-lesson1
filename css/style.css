@@ -10,6 +10,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
+    background-attachment: fixed;
     color: lavenderblush;
     font-family: "Figtree", sans-serif;
     font-optical-sizing: auto;

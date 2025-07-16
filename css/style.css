@@ -64,7 +64,7 @@ p {
 nav ul{
     padding: 0;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     float: left;
 }
 nav li {
@@ -84,19 +84,19 @@ nav li a {
     margin-right: 2px;
 }
 nav li a:link {
-    background-color: dodgerblue;
-    color: floralwhite;
+    background-color: floralwhite;
+    color: #00478F;
 }
 nav li a:visited {
-    background-color: dodgerblue;
-    color: lavenderblush;
+    background-color: floralwhite;
+    color: #00478F;
 }
 nav li a:hover {
-    background-color: lavenderblush;
-    color: dodgerblue;
+    background-color: #00478F;
+    color: floralwhite;
 }
 nav li a:active {
-    background-color: dodgerblue;
+    background-color: #00478F;
     color: floralwhite;
 }
 .fullwidth {

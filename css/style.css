@@ -5,6 +5,11 @@ html {
 }
 body {
     background-color: #6495ed;
+    background-image: url("../multimedia/background.jpg");
+    background-position:bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
     color: lavenderblush;
     font-family: "Figtree", sans-serif;
     font-optical-sizing: auto;

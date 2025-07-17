@@ -124,9 +124,8 @@ nav li a:active {
     max-width: 1024px;
     height: auto;
     margin: 0 auto;
-    border: 2px solid white;
+    border: 1px dashed snow;
     padding: 20px;
-    margin: 40px;
     box-sizing: border-box;
 }
 

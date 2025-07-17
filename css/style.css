@@ -120,8 +120,14 @@ nav li a:active {
                     -4px 4px 2px aqua;
 }
 .wrapper {
-    width: 1024px;
+    width: 80%;
+    max-width: 1024px;
+    height: auto;
     margin: 0 auto;
+    border: 2px solid white;
+    padding: 20px;
+    margin: 40px;
+    box-sizing: border-box;
 }
 
 .main-heading {color: burlywood;}
